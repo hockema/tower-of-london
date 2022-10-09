@@ -78,7 +78,7 @@
 	<!-- EN: On/Off double page view -->
 	<!-- IT: Attiva/Disattiva vista doppia pagina -->
 	<!-- default: true() -->
-	<xsl:param name="double_view" select="false()"/>
+	<xsl:param name="double_view" select="true()"/>
 
 	<!-- ################ -->
 	<!-- PREFATORY MATTER -->
