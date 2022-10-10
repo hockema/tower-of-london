@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>View of London with "Des Nouvelles d’Albyon"</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Royal MS 16 F II, f.73r | British Library</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The Tower of London with London Bridge, the Custom's House, and the city, behind. The
+               Duke is seen writing within, also at a window, and in the court sending a letter.
+               Border on a gold ground, foliage, flowers and fruit, arms of Edward IV supported by
+               white lions (the Lions of March).</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface corresp="#folio_73r" xml:id="folio_73r.jpg">
+         <graphic url="../images/single/folio_73r.jpg" width="1359px" height="2000px"/>
+         <zone xml:id="line01" lry="1172" lrx="1016" uly="1119" ulx="353" rendition="Line"
+            corresp="#lb01_73r" rend="visible"/>
+         <zone xml:id="line02" lry="1226" lrx="1072" uly="1175" ulx="483" rendition="Line"
+            corresp="#lb02_73r" rend="visible"/>
+         <zone xml:id="line03" lry="1280" lrx="1073" uly="1225" ulx="483" rendition="Line"
+            corresp="#lb03_73r" rend="visible"/>
+         <zone xml:id="line04" lry="1333" lrx="1067" uly="1275" ulx="481" rendition="Line"
+            corresp="#lb04_73r" rend="visible"/>
+         <zone xml:id="line05" lry="1388" lrx="967" uly="1334" ulx="482" rendition="Line"
+            corresp="#lb05_73r" rend="visible"/>
+         <zone xml:id="line06" lry="1440" lrx="793" uly="1387" ulx="209" rendition="Line"
+            corresp="#lb06_73r" rend="visible"/>
+         <zone xml:id="hotspot01" lry="964" lrx="671" uly="669" ulx="406" rendition="HotSpot"
+            corresp="#HS1" rend="visible"/>
+         <zone xml:id="hotspot02" corresp="#HS2" rend="visible" rendition="HotSpot" lry="1863" lrx="986" uly="1461" ulx="479"/>
+      </surface>
+   </facsimile>
+   <text>
+      <front>
+         <p> Is this right?<lb/><lb rend="empty"/>Is this working too? </p>
+      </front>
+      <body>
+         <pb n="Tower of London" xml:id="folio_73r"/>
+         <p>
+            <lb xml:id="lb01_73r" facs="#line01"/>Des nouvelles dalbion (News from Albion)<lb xml:id="lb02_73r"
+               facs="#line02"/>Sil vous en plaist escouter (Listen if you please)<lb xml:id="lb03_73r" facs="#line03"/>Mon
+            frere et mon cōpaignō (My brother and my companion)<lb xml:id="lb04_73r" facs="#line04"/>Saichez qua mon retourner (Know
+            that when I return)
+               <lb xml:id="lb05_73r" facs="#line05"/>Iay este deca la mer (I've been there, from the sea,) <lb xml:id="lb06_73r"
+               facs="#line06"/> Receu a joyeuse chiere (Received so cheerfully)<lb xml:id="blank1"/>
+         </p>
+      </body>
+      <back>
+         <div type="hotspot">
+            <div xml:id="HS1" facs="#hotspot01">
+               <p>The Traitor's Gate is visible in the foreground. This was the an entrance through
+                  which many prisoners were brought into the Tower of London. Prisoners would be
+                  brought under London Bridge, passing beneath the heads of the recently beheaded. </p>
+               <figure>
+                  <graphic url="folio_73r_HS1.jpg"/>
+               </figure>
+            </div>
+         </div>
+         <div type="hotspot">
+            <div xml:id="HS2" facs="#hotspot02">
+               <p>This is the herald of Edward IV, who was the likely recipient of the manuscript.
+                  Edward died suddenly in 1483, and production of the manuscript halted
+                  abruptly.</p>
+               <figure>
+                  <graphic url="folio_73r_HS2.jpg"/>
+               </figure>
+            </div>
+         </div>
+      </back>
+   </text>
+</TEI>

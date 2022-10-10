@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<xml xmlns="http://www.w3.org/1999/xhtml">
+   <msDesc active="1"/>
+   <headerInfo active="1"/>
+   <front active="1"/>
+   <regesto active="1"/>
+   <liste/>
+   <editions>
+      <edition data-key="dipl">Diplomatic</edition>
+   </editions>
+   <textpage>
+      <text n="1" label="text 1">
+         <pb n="Tower of London">folio_73r</pb>
+      </text>
+   </textpage>
+   <pages>
+      <pair>
+         <pb n="Tower of London">folio_73r</pb>
+      </pair>
+   </pages>
+   <idno/>
+</xml>
